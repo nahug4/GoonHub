@@ -1,0 +1,92 @@
+#caleb {
+  font-size: 50px;
+  color: #000000;
+  background-color: rgb(174, 171, 171);
+  text-align: left;
+  padding: 10px 20px;
+  position: relative;
+  left: 100px;
+  margin-top: 150px;
+  border-radius: 50px;
+  opacity: 0.7;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#caleb:hover {
+  background-color: #ffe6e6; /* light red/pink tint */
+  box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
+  transform: scale(1.05);
+}
+
+#caleb:hover {
+  background-color: #ffe6e6; /* light red/pink tint */
+  box-shadow: 0 0 1px rgba(200, 27, 27, 0.6);
+  transform: scale(1.05);
+}
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  animation: spinIn 1s ease-out 10ms;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/id/516084897/photo/milk-splash.jpg?s=612x612&w=0&k=20&c=6tOaLDBo8H1j3fbAddJUuXxAVjcMDc-XhY6AsEtm6CE=);
+  background-size: cover;
+  background-position: middle;
+  background-repeat: no-repeat;
+}
+
+.main-text {
+  color: aliceblue;
+  position: relative;
+  margin-top: -200px;
+  text-align: center;
+  font-size: larger;
+  font: italic;
+  font-family: monospace;
+}
+.to-fulscreen {
+  text-align: right;
+}
+
+@keyframes spinIn {
+  from {
+    transform: rotate(-360deg);
+    font-size: 500px;
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg);
+    transform: scale(0px);
+    opacity: 1;
+  }
+}
+.fullscreen-img {
+  max-width: 400px;
+  max-height: 400px;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fullscreen-img {
+  max-width: 400px;
+  max-height: 400px;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fullscreen-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
