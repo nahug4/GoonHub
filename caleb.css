@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caleb Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="caleb-page">
+    <h1 class="title">Caleb Hsieh</h1>
+    <h1>Click on image to Fullscreen!(for best experience)</h1>
+
+    <img
+      class="fullscreen-img"
+      src="https://mail.google.com/mail/u/0?ui=2&ik=98f00de8e2&attid=0.1&permmsgid=msg-a:r1325435433136069172&th=19646b0c360f65db&view=fimg&fur=ip&permmsgid=msg-a:r1325435433136069172&sz=s0-l75-ft&attbid=ANGjdJ_aDo83HwyjBbiX6mpIDJeXG1E1pohtO_aUPRY5j95CV2e0WrLxNfuhWQ9MfoaR3G0vsdso23T1CrUJkJ51y3e0AVqv4kzAecXkKtyfALEMFlRiadXBF-wWFss&disp=emb&realattid=ii_m9m5u3hd0&zw"
+      alt="My Image"
+      onclick="openFullscreen(this)"
+    />
+
+    <img
+      class="fullscreen-img"
+      src="https://mail.google.com/mail/u/0?ui=2&ik=98f00de8e2&attid=0.1&permmsgid=msg-a:r2567428475226203407&th=19646b2330c2b58c&view=fimg&fur=ip&permmsgid=msg-a:r2567428475226203407&sz=s0-l75-ft&attbid=ANGjdJ8jV4c1G3oC1Oy4l4IX-CL1XHpGc21Z0liK1FYVUj2h68T4FOe5tbyx2FN2O9uZrk5AK-IiiiaEssOVUFGekHvBbFrhjJloffHh2Vp7n6Fj9Zuu19AWnOu3Cx8&disp=emb&realattid=ii_m9m5w4140&zw"
+      alt="Second Image"
+      onclick="openFullscreen(this)"
+    />
+  </body>
+</html>
