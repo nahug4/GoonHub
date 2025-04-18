@@ -14,6 +14,7 @@
   cursor: pointer;
 }
 
+
 #caleb:hover {
   background-color: #ffe6e6; /* light red/pink tint */
   box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
@@ -39,6 +40,10 @@ body {
   background-size: cover;
   background-position: middle;
   background-repeat: no-repeat;
+}
+div {
+  display:flex;
+  
 }
 
 .main-text {
