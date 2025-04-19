@@ -61,7 +61,7 @@ div {
 }
 .to-fulscreen {
   position: relative;
-  color: white;
+  color: red;
 }
 
 @keyframes spinIn {
