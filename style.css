@@ -1,4 +1,4 @@
-#caleb {
+#buttons {
   font-size: 50px;
   color: #000000;
   background-color: rgb(174, 171, 171);
@@ -15,13 +15,13 @@
 }
 
 
-#caleb:hover {
+#buttons:hover {
   background-color: #ffe6e6; /* light red/pink tint */
   box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
   transform: scale(1.05);
 }
 
-#caleb:hover {
+#buttons:hover {
   background-color: #ffe6e6; /* light red/pink tint */
   box-shadow: 0 0 1px rgba(200, 27, 27, 0.6);
   transform: scale(1.05);
