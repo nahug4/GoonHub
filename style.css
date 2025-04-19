@@ -61,6 +61,7 @@ div {
 }
 .to-fulscreen {
   text-align: right;
+  position: relative;
 }
 
 @keyframes spinIn {
