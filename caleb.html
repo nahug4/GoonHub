@@ -12,18 +12,21 @@
         margin-top: 40px;
         text-align: center;
       }
-      input[type="text"] {
-        padding: 10px;
-        width: 250px;
-        font-size: 16px;
-      }
       button {
-        padding: 10px 20px;
+        padding: 12px 24px;
         font-size: 16px;
-        margin-left: 10px;
+        margin-top: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
       }
       #total {
-        margin-top: 20px;
+        margin-top: 15px;
         font-weight: bold;
         font-size: 18px;
       }
@@ -31,7 +34,7 @@
   </head>
   <body class="caleb-page">
     <h1 class="title">Caleb Hsieh</h1>
-    <h1>Click on image to Fullscreen!(for best experience)</h1>
+    <h1>Click on image to Fullscreen! (for best experience)</h1>
 
     <!-- Images -->
     <div>
@@ -79,12 +82,11 @@
       />
     </div>
 
-    <!-- Input Section -->
+    <!-- Click Button Section -->
     <div class="input-section">
-      <h2>Submit your input</h2>
-      <input type="text" id="userInput" placeholder="Type something..." />
-      <button onclick="submitInput()">Submit</button>
-      <div id="total">Total Inputs Submitted: 0</div>
+      <h2>Click the button to submit</h2>
+      <button onclick="submitClick()">Click Me!</button>
+      <div id="total">Total Clicks: 0</div>
     </div>
   </body>
 </html>
