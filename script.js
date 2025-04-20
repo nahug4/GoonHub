@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
 //button to kye page
   document.addEventListener("DOMContentLoaded", function () {
-  const calebButton = document.getElementById("kye");
+  const kyeButton = document.getElementById("kye");
 
-  calebButton.addEventListener("click", function () {
+  kyeButton.addEventListener("click", function () {
     window.location.href = "kye.html";
   });
 
