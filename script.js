@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const calebButton = document.getElementById("caleb");
   const kyeButton = document.getElementById("kye");
+  const aaravButton = document.getElementById("aarav")
 
   // Redirect to caleb.html when Caleb button is clicked
   calebButton.addEventListener("click", function () {
