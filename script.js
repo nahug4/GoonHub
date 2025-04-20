@@ -1,21 +1,20 @@
-// button to caleb page
+// Wait for the DOM to load before attaching event listeners
 document.addEventListener("DOMContentLoaded", function () {
   const calebButton = document.getElementById("caleb");
+  const kyeButton = document.getElementById("kye");
 
+  // Redirect to caleb.html when Caleb button is clicked
   calebButton.addEventListener("click", function () {
     window.location.href = "caleb.html";
   });
-  
-//button to kye page
-  document.addEventListener("DOMContentLoaded", function () {
-  const kyeButton = document.getElementById("kye");
 
+  // Redirect to kye.html when Kye button is clicked
   kyeButton.addEventListener("click", function () {
     window.location.href = "kye.html";
   });
+});
 
-    
-}); // sigma
+// Function to open an image in fullscreen
 function openFullscreen(imgElement) {
   if (imgElement.requestFullscreen) {
     imgElement.requestFullscreen();
