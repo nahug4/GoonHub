@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
   kyeButton.addEventListener("click", function () {
     window.location.href = "kye.html";
   });
+
+   aaravButton.addEventListener("click", function () {
+    window.location.href = "aarav.html";
+  });
+  
 });
 
 // Function to open an image in fullscreen
