@@ -133,16 +133,14 @@ div {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
-/* ✅ Logo container to center it at top */
 .logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -140px;
-  background-color: black;
+  left: 20px;
 }
 
-/* ✅ Make logo bigger */
 .logo {
   height: 400px;
 }
