@@ -94,6 +94,7 @@ div {
   font-size: larger;
   font: italic;
   font-family: monospace;
+  animation: spinIn 1s ease-out 10ms; 
 }
 
 .click-to-fullscreen-text {
