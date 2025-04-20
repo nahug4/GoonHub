@@ -14,7 +14,6 @@
   cursor: pointer;
 }
 
-
 #caleb:hover {
   background-color: #ffe6e6; /* light red/pink tint */
   box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
@@ -43,7 +42,6 @@
   cursor: pointer;
 }
 
-
 #kye:hover {
   background-color: #ffe6e6; /* light red/pink tint */
   box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
@@ -55,6 +53,7 @@
   box-shadow: 0 0 1px rgba(200, 27, 27, 0.6);
   transform: scale(1.05);
 }
+
 .title {
   margin: 0;
   padding: 0;
@@ -82,9 +81,9 @@ body {
   background-position: middle;
   background-repeat: no-repeat;
 }
+
 div {
   display:flex;
-  
 }
 
 .main-text {
@@ -96,10 +95,11 @@ div {
   font: italic;
   font-family: monospace;
 }
+
 .click-to-fullscreen-text {
   color: aliceblue;
-
 }
+
 .to-fulscreen {
   position: relative;
   color: red;
@@ -117,15 +117,6 @@ div {
     opacity: 1;
   }
 }
-.fullscreen-img {
-  max-width: 400px;
-  max-height: 400px;
-  cursor: pointer;
-  display: block;
-  margin: 50px auto;
-  border-radius: 15px;
-  transition: transform 0.3s ease-in-out;
-}
 
 .fullscreen-img {
   max-width: 400px;
@@ -140,4 +131,12 @@ div {
 .fullscreen-img:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* === Added Logo Container for Centering === */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
