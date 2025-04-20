@@ -64,6 +64,18 @@
   animation: spinIn 1s ease-out 10ms;
 }
 
+.logo {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
 body {
   background-image: url(https://media.istockphoto.com/id/516084897/photo/milk-splash.jpg?s=612x612&w=0&k=20&c=6tOaLDBo8H1j3fbAddJUuXxAVjcMDc-XhY6AsEtm6CE=);
   background-size: cover;
