@@ -24,7 +24,12 @@
   box-shadow: 0 0 15px rgba(200, 27, 27, 0.6);
   transform: scale(1.05);
 }
-If you want, paste your e
+
+.main-text {
+margin-top: 200px;
+  
+}
+
 
 .title {
   margin: 0;
