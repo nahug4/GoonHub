@@ -26,8 +26,13 @@
 }
 
 .main-text {
-margin-top: 200px;
-  
+  color: aliceblue;
+  position: relative;
+  margin-top: -350px;
+  text-align: center;
+  font-size: larger;
+  font: italic;
+  font-family: monospace;
 }
 
 
