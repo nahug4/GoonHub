@@ -3,19 +3,23 @@ document.addEventListener("DOMContentLoaded", function () {
   const calebButton = document.getElementById("caleb");
   const kyeButton = document.getElementById("kye");
   const aaravButton = document.getElementById("aarav");
-
-  // Redirect to caleb.html when Caleb button is clicked
+ const armanButton = document.getElementById("arman");
+ 
   calebButton.addEventListener("click", function () {
     window.location.href = "caleb.html";
   });
 
-  // Redirect to kye.html when Kye button is clicked
+ 
   kyeButton.addEventListener("click", function () {
     window.location.href = "kye.html";
   });
 
    aaravButton.addEventListener("click", function () {
     window.location.href = "aarav.html";
+  });
+
+   armanButton.addEventListener("click", function () {
+    window.location.href = "arman.html";
   });
   
 });
