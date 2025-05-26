@@ -4,12 +4,11 @@
   <meta charset="UTF-8" />
   <title>Enter Security Code</title>
   <style>
-    /* Make background white and fill full viewport */
     body, html {
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: white;
+      background-color: black;
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center; /* center horizontally */
@@ -67,6 +66,15 @@
       font-weight: bold;
       min-height: 20px;
     }
+
+    .logo {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+    
   </style>
 </head>
 <body>
@@ -79,5 +87,12 @@
   </div>
 
   <script src="gate.js"></script>
+
+
+  <div class="logo-container">
+        <img src="logo.png" alt="Caleb Hsieh Logo" class="logo" />
+      </a>
+    </div>
+  
 </body>
 </html>
