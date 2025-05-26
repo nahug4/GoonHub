@@ -6,7 +6,7 @@ document.getElementById("submitBtn").addEventListener("click", function () {
 
   if (userInput === correctCode) {
 
-    window.location.href = "home.html";
+    window.location.href = "niglet.html";
   } else {
     errorMsg.textContent = "Incorrect code. Try again.";
   }
