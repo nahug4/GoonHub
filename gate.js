@@ -1,3 +1,12 @@
+async function checkCode(attempt){
+let result = await fetch('https://goonhub-passcode.vercel.app/' + attempt);
+let text = await result.text();
+if (text == "Access Granted"){
+//redirect to the home page
+}
+
+}
+
 const correctCode = "calebhasagyatt"; 
 
 document.getElementById("submitBtn").addEventListener("click", function () {
